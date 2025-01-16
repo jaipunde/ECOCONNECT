@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Driver and Tour Guide Assignment</title>
+    <link rel="stylesheet" type="text/css" href="jai.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h2>Estimated Value:</h2>
+            <p id="estimatedValue"></p>
+        </div>
+        <div class="column">
+            <h2>Number of Days Required:</h2>
+            <p id="daysRequired"></p>
+            <h2>Assigned Driver:</h2>
+            <p id="driverName"></p>
+            <h2>Assigned Tour Guide:</h2>
+            <p id="tourGuideName"></p>
+        </div>
+        <button id="paymentButton">
+            <a href="payment.html">Payment Method</a>
+        </button>
+    </div>
+    <script>
+        function getRandomName(names) {
+            return names[Math.floor(Math.random() * names.length)];
+        }
+
+        const drivers = ["Darshan", "Rahul", "Suresh", "Ram", "Aniket", "Ganesh"];
+        const tourGuides = ["roshan", "Rohit", "Ramesh", "sham", "Yash", "Jai"];
+        const estimatedValues = [3000, 4000, 5000, 6000, 8000, 10000, 9000];
+
+        const randomDriver = getRandomName(drivers);
+        const randomTourGuide = getRandomName(tourGuides);
+        const randomValue = estimatedValues[Math.floor(Math.random() * estimatedValues.length)];
+        const randomDaysRequired = Math.floor(Math.random() * 6) + 2; // Random number between 2 and 7
+
+        document.getElementById("estimatedValue").textContent = "Rs" + randomValue;
+        document.getElementById("driverName").textContent = randomDriver;
+        document.getElementById("tourGuideName").textContent = randomTourGuide;
+        document.getElementById("daysRequired").textContent = randomDaysRequired + " days";
+    </script>
+</body>
+</html>

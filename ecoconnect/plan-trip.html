@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Booking Form</title>
+    <style>
+             body {
+               font-family: Arial, sans-serif;
+               background: url('newcat.jpg') no-repeat center center fixed;
+               background-size: cover;
+             }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+           background-image: url('newdog.jpg'); /* Background image for the container */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        select[multiple] {
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Tour</h1>
+        <form action="submit.php" method="POST">
+            <!-- Date Selection -->
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date" required>
+
+           
+
+            <!-- Pickup and Drop Address -->
+            <label for="pickup_address">Pickup Address:</label>
+            <input type="text" id="pickup_address" name="pickup_address" required>
+
+            <label for="drop_address">Drop Address:</label>
+            <input type="text" id="drop_address" name="drop_address" required>
+
+            <!-- Places to Visit -->
+            <label>Select Places to Visit:</label>
+            <select multiple name="places_to_visit[]">
+                <option value="Cursu Bai">kalsuBai</option>
+                <option value="Bhandardara">Bhandardara</option>
+                <option value="Andharban Valley">Sandhan Valley</option>
+                <option value="Ratangarh">Ratangarh</option>
+                <option value="Harishchandragad">Harishchandragad</option>
+                <option value="Reverse Waterfall">Reverse Waterfall</option>
+            </select>
+
+        <!-- Food Option -->
+<label for="food_option">Select Food Option:</label>
+<div class="food-options">
+  <div class="food-column">
+    <h3>Breakfast</h3>
+    <select name="breakfast_option">
+      <option value="Misal Pav">Misal Pav</option>
+      <option value="Poha">Poha</option>
+      <option value="Vada Pav">Vada Pav</option>
+      <option value="Modak">Modak</option>
+      <!-- Add more breakfast options here -->
+    </select>
+  </div>
+  <div class="food-column">
+    <h3>Lunch</h3>
+    <select name="lunch_option">
+      <option value="Pav Bhaji">Pav Bhaji</option>
+      <option value="Biryani">Biryani</option>
+      <option value="Samosa">Samosa</option>
+      <option value="Kothimbir Vadi">Kothimbir Vadi</option>
+      <!-- Add more lunch options here -->
+    </select>
+  </div>
+  <div class="food-column">
+    <h3>Dinner</h3>
+    <select name="dinner_option">
+      <option value="Sabudana Khichdi">Sabudana Khichdi</option>
+      <option value="Veg thali">Bharli Vangi</option>
+      <option value="Kolhapuri Misal">Kolhapuri Misal</option>
+      <option value="Solkadhi">Solkadhi</option>
+     <option value="Solkadhi">Solkadhi</option>
+     
+      <!-- Add more dinner options here -->
+    </select>
+  </div>
+</div>
+ <label for="room-type">Room Type:</label>
+ <select id="room-type" name="room-type" required>
+   <option value="AC">AC</option>
+   <option value="Non-AC">Non-AC</option>
+ </select>
+
+            <!-- Number of People -->
+            <label for="num_people">Number of People:</label>
+            <input type="number" id="num_people" name="num_people" required>
+
+            
+<title>Submit Button with Hyperlink</title>
+    <style>
+        /* Style for the submit button */
+        .submit-button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Hover effect for the button */
+        .submit-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form action="submit.php" method="POST">
+        <!-- Your form fields here -->
+
+        <!-- Submit Button -->
+        <button type="submit" class="submit-button">
+            <a href="estimation.html" style="text-decoration: none; color: white;">Submit and Visit Website</a>
+        </button>
+    </form>
+        </section>
+    </div>
+</body>
+</html>

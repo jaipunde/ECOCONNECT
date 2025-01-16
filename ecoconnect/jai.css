@@ -1,0 +1,82 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body with a background color and font */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container horizontally and add some spacing */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style the columns for better layout */
+.column {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Style headings for a professional look */
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the values with some spacing and a different color */
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Style the payment button */
+#paymentButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#paymentButton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add some hover effect to the payment button */
+#paymentButton:hover {
+    background-color: #0056b3;
+}
+
+/* Style the link for payment */
+#paymentButton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Center the button */
+#paymentButton {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url('newman.jpg'); /* Replace 'background.jpg' with the path to your image file */
+    background-size: cover; /* This makes the background image cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
