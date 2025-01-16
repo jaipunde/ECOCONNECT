@@ -1,4 +1,4 @@
-# ECOCONNECT
+![car4](https://github.com/user-attachments/assets/01ff66a4-0fe5-47e4-8e30-6591b1a98ef2)# ECOCONNECT
 SahyadriEcoConnect - Travel Planning Website
 Project Overview:
 SahyadriEcoConnect is a user-friendly, eco-conscious travel planning website designed to help travelers explore Mumbai’s eastern outskirts. The website provides comprehensive features to enhance the travel experience, such as real-time traffic updates, dining and accommodation recommendations, detailed destination guides, and the option to plan eco-friendly trips. Whether you’re planning a solo adventure or a group trip, SahyadriEcoConnect is your go-to platform for an enriching and stress-free journey.
@@ -36,3 +36,4 @@ Feel free to fork the repository and contribute to the project by submitting pul
 
 Contact:
 For more information, feel free to contact the project maintainer at jaipunde72@gmail.com or submit issues and feature requests in the repository.
+![Uploading Screenshot (6).png…]()
