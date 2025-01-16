@@ -35,4 +35,4 @@ Contributing:
 Feel free to fork the repository and contribute to the project by submitting pull requests. Suggestions and improvements are welcome!
 
 Contact:
-For more information, feel free to contact the project maintainer at [your email] or submit issues and feature requests in the repository.
+For more information, feel free to contact the project maintainer at jaipunde72@gmail.com or submit issues and feature requests in the repository.
